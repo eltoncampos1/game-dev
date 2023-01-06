@@ -9,6 +9,7 @@
             while (asnwer != 0)
             {
                 asnwer = Menu();
+                Console.Clear();
                 if (asnwer == 1)
                 {
                     pokedex.ListPokemon();
@@ -24,15 +25,17 @@
                     PokemonPlus pPc = pokedex.Pokemons[code];
                     if (pPlayer.Power >= pPc.Power)
                     {
-                        Console.WriteLine("You win!!!");
-                        Console.WriteLine("Your Power: " + pPlayer.Power);
-                        Console.WriteLine("Enemy Power: " + pPc.Power);
+                        Console.WriteLine("Battle Data!!!\n");
+                        pPlayer.ShowPokemonDataPlus();
+                        pPc.ShowPokemonDataPlus();
+                        Console.WriteLine("\nYou Win!!!");
                     }
                     else
                     {
-                        Console.WriteLine("You lose!!!");
-                        Console.WriteLine("Your Power: " + pPlayer.Power);
-                        Console.WriteLine("Enemy Power: " + pPc.Power);
+                        Console.WriteLine("Battle Data!!!\n");
+                        pPlayer.ShowPokemonDataPlus();
+                        pPc.ShowPokemonDataPlus();
+                        Console.WriteLine("\nYou lose!!!");
                     }
                 }
                 Console.ReadKey();
