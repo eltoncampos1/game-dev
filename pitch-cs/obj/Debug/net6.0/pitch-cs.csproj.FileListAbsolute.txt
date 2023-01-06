@@ -1,0 +1,15 @@
+/home/eltoncampos1/dev/pitch-cs/bin/Debug/net6.0/pitch-cs
+/home/eltoncampos1/dev/pitch-cs/bin/Debug/net6.0/pitch-cs.deps.json
+/home/eltoncampos1/dev/pitch-cs/bin/Debug/net6.0/pitch-cs.runtimeconfig.json
+/home/eltoncampos1/dev/pitch-cs/bin/Debug/net6.0/pitch-cs.dll
+/home/eltoncampos1/dev/pitch-cs/bin/Debug/net6.0/pitch-cs.pdb
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.csproj.AssemblyReference.cache
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.AssemblyInfoInputs.cache
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.AssemblyInfo.cs
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.csproj.CoreCompileInputs.cache
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.dll
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/refint/pitch-cs.dll
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.pdb
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/pitch-cs.genruntimeconfig.cache
+/home/eltoncampos1/dev/pitch-cs/obj/Debug/net6.0/ref/pitch-cs.dll

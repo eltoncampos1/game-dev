@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DWYrev+av5keAgqF9A3l3XDnixSxSa0I0fybJGm0LmuqInAUPcj0i2vQojmrK/4OeHSFMjGbdUJxv1q1r6tyUg==",
+  "success": true,
+  "projectFilePath": "/home/eltoncampos1/dev/pitch-cs/pitch-cs.csproj",
+  "expectedPackageFiles": [
+    "/home/eltoncampos1/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/eltoncampos1/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/eltoncampos1/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
