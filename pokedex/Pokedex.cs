@@ -6,8 +6,8 @@ namespace pokedex
         {
             this.Startlist();
         }
-        private List<Pokemon> pokemons;
-        public List<Pokemon> Pokemons
+        private List<PokemonPlus> pokemons;
+        public List<PokemonPlus> Pokemons
         {
             get { return this.pokemons; }
         }
@@ -15,10 +15,12 @@ namespace pokedex
 
         private void Startlist()
         {
-            this.pokemons = new List<Pokemon>();
+            this.pokemons = new List<PokemonPlus>();
             for (int i = 0; i <= 10; i++)
             {
-                Pokemon p = new Pokemon("Bubassaur-" + i, "Bubasaurl is green");
+                Random r = new Random();
+                int power = r.Next(0, 500);
+                PokemonPlus p = new PokemonPlus("Bubassaur-" + i, "Bubasaurl is green", power);
                 this.pokemons.Add(p);
             }
         }
@@ -27,6 +29,7 @@ namespace pokedex
         {
             for (int i = 0; i < this.Pokemons.Count; i++)
             {
+                Console.WriteLine("Pokemon code: ", +i);
                 this.Pokemons[i].ShowPokemonData();
             }
         }
